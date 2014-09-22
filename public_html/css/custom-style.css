@@ -18,3 +18,10 @@ div{
     font-style: oblique;
    font-size-adjust: 25px;
 }
+.container-fluid{
+    height: 100vh;
+}
+
+#index{
+    
+}
