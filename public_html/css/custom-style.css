@@ -7,8 +7,20 @@ div{
 
 .container{
     border-color: black;
+    width: 100%;
 }
 
+.purple{
+    color: red;
+}
+
+.active{
+    color: blue;
+}
+
+.green{
+    color:green
+}
 .row{
     border-color: #245269;
 }
@@ -17,9 +29,9 @@ div{
     font-size: 36px;
     font-style: oblique;
 }
-.container-fluid{
+/*.container-fluid{
     height: 100vh;
-}
+}*/
 
 #pro{
     .textwrap{
@@ -27,6 +39,14 @@ div{
         margin: 10px;
     }
 }
-id{
-    height: 386
+/*.container{
+    height:100vh;
+    width: 100%;
+}*/
+body{
+    background-image:url('http://www.carpictures.com/pics/640/12IDL31022504314/Mercedes-Benz-G500-Custom-2003-12IDL31022504314.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-weight: bold;
+    text-decoration-color: black
 }
