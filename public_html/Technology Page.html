@@ -14,6 +14,41 @@ and open the template in the editor.
         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
     </head>
     <body>
+        <!-- Makes Nav Bar Stick To Top !-->
+       <nav class= "navbar navbar-default navbar-fixed-top">
+         <div class="container-fluid">
+           <div class="navbar-header">
+               <img class="img-responsive" src="images/LA_LOGO_1.jpg">
+             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-collapse">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+              </button> 
+           </div>
+
+           <div class="collapse navbar-collapse" id="nav-collapse">
+                <ul class="nav navbar-nav">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-text" class="dropdown-toggle" data-toggle="dropdown"> Links
+                   <b class="caret"></b>
+                  </a>
+
+                  <ul  class="dropdown-menu">
+                      <p>Technology Page</p>
+                  <li><a class=green  href="Technology Page.html">Technology</a><br/></li>
+                  <li><a href="http://en.wikipedia.org/wiki/HTML">HTML</a></li>
+                  <li><a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></li>
+                  <li><a href="http://getbootstrap.com/">Bootstrap</a></li> 
+                  <li><a href="http://www.totaljerkface.com/happy_wheels.tjf">Happy Wheels</a></li>
+                  <li><a class=purple href="index.html">About Me</a><br/></li>
+                  <li><a class=active href="Projects Page.html">Projects</a><br/></li>
+                  </ul>
+                </li>  
+                </ul>
+           </div>
+         </div>
+        </nav>
         <div class='container-fluid'>
             <div class="col-xs-10">
             <center>
@@ -47,8 +82,9 @@ and open the template in the editor.
                        enable the introduction of the rest of the program from 
                        an input device.</p>
                 </div>
-                
             </div>
         </div>
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
