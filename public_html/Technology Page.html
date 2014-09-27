@@ -6,19 +6,19 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <!--These are codes that link files to run those features I have. -->
         <title>Technology</title>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link type="text/css" rel="stylesheet" href="css/custom-style.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
-        <link type="text/css" rel="stylesheet" href="css/custom-style.css">
     </head>
     <body>
-        <!-- Makes Nav Bar Stick To Top !-->
+<!-- Makes Nav Bar Stick To Top !-->
        <nav class= "navbar navbar-default navbar-fixed-top">
          <div class="container-fluid">
-           <div class="navbar-header">
-               <img class="img-responsive" src="images/LA_LOGO_1.jpg">
+           <div >
              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-collapse">
              <span class="icon-bar"></span>
              <span class="icon-bar"></span>
@@ -26,16 +26,16 @@ and open the template in the editor.
              <span class="icon-bar"></span>
               </button> 
            </div>
-
-           <div class="collapse navbar-collapse" id="nav-collapse">
-                <ul class="nav navbar-nav">
+           <!--These are codes that make a drop down menu that includes links.-->
+           <div class="collapse navbar-collapse" id="nav-coll apse">
+              <ul class="nav navbar-nav">
                 <li class="dropdown">
-                  <a href="#" class="dropdown-text" class="dropdown-toggle" data-toggle="dropdown"> Links
+                  <a href="#" class="dropdown-text" class="dropdown-toggle" data-toggle="dropdown">Links
                    <b class="caret"></b>
                   </a>
-
+<!--These are  more coding of the drop down menu that has links to go too.-->
                   <ul  class="dropdown-menu">
-                      <p>Technology Page</p>
+                       <p>Technology Page</p>
                   <li><a class=green  href="Technology Page.html">Technology</a><br/></li>
                   <li><a href="http://en.wikipedia.org/wiki/HTML">HTML</a></li>
                   <li><a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></li>
@@ -45,16 +45,18 @@ and open the template in the editor.
                   <li><a class=active href="Projects Page.html">Projects</a><br/></li>
                   </ul>
                 </li>  
-                </ul>
+              </ul>
            </div>
          </div>
         </nav>
-        <div class='container-fluid'>
+        <div>
+            <!--This class sizes the row and contains a title.-->
             <div class="col-xs-10">
             <center>
                 <h1>Technology Page</h1>
             </center>
             </div>
+            <!--This is another class that sizes and include my links.-->
             <div class="col-xs-2">
                 <nav>
                     <a class=purple href="index.html">About Me</a><br/>
@@ -62,6 +64,7 @@ and open the template in the editor.
                     <a class=green href="Technology Page.html">Technology</a><br/>
                  </nav>
             </div>
+            <!--This class's row contains 3 boxs that each include HTML,CSS,Bootstrap text and images. -->
             <div class="row">
                 <div class="col-xs-4">
                  <img src="images/HTML.jpg">
@@ -84,6 +87,7 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
+<!--This a code of a script from milestone 0 in the intermediate part.-->
        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
        <script src="js/bootstrap.min.js"></script>
     </body>

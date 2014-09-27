@@ -6,6 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <!--These are codes that link files to run those features I have. -->
         <title>Nortikyan-H Portfolio v2</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,38 +14,76 @@ and open the template in the editor.
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
     </head>
+    <!-- This is an id to show and indicate where it is.-->
     <body id="index">
+        <!-- Button trigger modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  More Info
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h1 class="modal-title" id="myModalLabel">More Info About Me</h1>
+      </div>
+        <div class="modal-body"><h4>
+        My Name is Hamlet. I am from Pasadena the city of roses. I attend to 
+        Pasadena High School. I am a 9th grader. I am in the App Academy 
+        because I wanna explore different options a lot so I can know what
+        direction I am going to go with my life and what I like to know to
+        take after my four years of high school.</h4>
+      </div>
+      <div class="modal-footer">
+          I am learning in the App Academy how to use HTML and exploring what
+          it can do and features and how it all works as coding. We learn about
+          CSS that how to make the web site more nicer and better looking and 
+          how to customize like backgrounds and more. We are now learning a 
+          new way of coding called bootstrap it helps you with adding features
+          that are very different and more professional and those features you
+          would see would blow your mind.
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--This is a button on my about me  page that you click to give a star.-->
+<button type="button" class="btn btn-default btn-lg">
+  <span class="glyphicon glyphicon-star"></span> Star
+</button>
+       <!--This is a code that contains everything in my about me page that makes rows in it and more.-->
         <div class="container">
             <p class="text-center">About Me</p>
             <div class="row">
-                <p>row</p>
                 <div class="col-xs-10">
-                    <p>col-xs-10</p>
-                    <div class="row">
-                        <p>row</p>
-                        <div class="col-xs-6"></div>
-                        <div class="col-xs-6"></div>
+                    <!--This is my coding for my jumbotron in my container of my about me page-->
+                    <div class="jumbotron">
+                    <h1>Hello, my name is Hamlet</h1>
+                    <p>I am in the App academy. I attend to Pasadena high school.
+                    I like too play football and basketball a lot. In my App
+                    Academy class we learn and watch how to code HTML,CSS and,
+                    Bootstrap files and explore how they work.</p>
+                    <form method="get" action="http://theappacademy.us"><button type="submit">App Academy</button></form>
                     </div>
-                    <div class="row">
-                        <p>row</p>
-                        <div class="col-xs-10">
-                            <img class="img-responsive" src="http://i115.photobucket.com/albums/n311/KROWN16/LA_LOGO.jpg">
-                        </div>
-                        <div class="col-xs-2">
-                            
-                            
-                        </div>
-                    </div>
+
                 </div>
+                <!--This is my coding for sizing an containers rows to put my links in it.-->
                 <div class="col-xs-2">
+                    <!--this is my links to my html pages-->
                  <nav>
                     <a class=purple href="index.html">About Me</a><br/>
                     <a class=active href="Projects Page.html">Projects</a><br/>
                     <a class=green  href="Technology Page.html">Technology</a><br/>
-                 </nav>
+                 </nav>   
+                </div>
+
                 </div>
             </div>
         </div>
+        <!--These tow script codes are the coding of milestone 0 in intermediate.-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
        <script src="js/bootstrap.min.js"></script>
     </body>

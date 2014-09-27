@@ -9,15 +9,15 @@ div{
     border-color: black;
     width: 100%;
 }
-
+ /* This is an id for my index page*/
 .purple{
     color: red;
 }
-
+/* This is an id for my project page*/
 .active{
     color: blue;
 }
-
+/* This is an id for my technology page*/
 .green{
     color:green
 }
@@ -50,6 +50,8 @@ body{
     font-weight: bold;
     text-decoration-color: black
 }
-id{
-   
+/*This is an another id from my  index pages container.*/
+#index{
+   height:100vh;
+   width: 100%;
 }
